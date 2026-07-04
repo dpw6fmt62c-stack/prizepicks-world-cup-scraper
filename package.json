@@ -1,0 +1,39 @@
+{
+  "name": "prizepicks-world-cup-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Apify Actor to scrape PrizePicks player props for World Cup soccer",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "build": "npm run build:types && npm run build:actor",
+    "build:types": "echo 'Type checking would go here'",
+    "build:actor": "echo 'Building actor...'",
+    "test": "echo 'Tests would go here'",
+    "lint": "echo 'Linting would go here'"
+  },
+  "keywords": [
+    "apify",
+    "actor",
+    "prizepicks",
+    "world-cup",
+    "soccer",
+    "football",
+    "scraper",
+    "props",
+    "betting"
+  ],
+  "author": "dpw6fmt62c-stack",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@crawlee/playwright": "^3.10.0",
+    "@crawlee/core": "^3.10.0",
+    "apify": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

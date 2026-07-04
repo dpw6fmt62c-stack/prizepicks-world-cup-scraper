@@ -1,0 +1,51 @@
+{
+  "title": "PrizePicks World Cup Scraper Input",
+  "description": "Configuration for scraping PrizePicks World Cup soccer betting data",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "maxProps": {
+      "title": "Max Props to Scrape",
+      "type": "integer",
+      "description": "Maximum number of player props to scrape",
+      "default": 100,
+      "minimum": 1,
+      "maximum": 10000
+    },
+    "headless": {
+      "title": "Run in Headless Mode",
+      "type": "boolean",
+      "description": "Whether to run the browser in headless mode",
+      "default": true
+    },
+    "debug": {
+      "title": "Debug Mode",
+      "type": "boolean",
+      "description": "Enable debug logging and screenshots",
+      "default": false
+    },
+    "includeImages": {
+      "title": "Include Player Images",
+      "type": "boolean",
+      "description": "Include player image URLs in results",
+      "default": true
+    },
+    "timeout": {
+      "title": "Page Load Timeout (ms)",
+      "type": "integer",
+      "description": "Timeout for page load operations",
+      "default": 30000,
+      "minimum": 5000,
+      "maximum": 120000
+    },
+    "scrollPages": {
+      "title": "Number of Scroll Pages",
+      "type": "integer",
+      "description": "Number of times to scroll down to load more props",
+      "default": 5,
+      "minimum": 1,
+      "maximum": 20
+    }
+  },
+  "required": []
+}

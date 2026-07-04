@@ -1,0 +1,19 @@
+{
+  "actorSpecVersion": 1,
+  "name": "prizepicks-world-cup-scraper",
+  "title": "PrizePicks World Cup Scraper",
+  "description": "Scrapes player props, lines, and betting data from PrizePicks for World Cup soccer",
+  "version": "1.0.0",
+  "docUrl": "https://github.com/dpw6fmt62c-stack/prizepicks-world-cup-scraper/blob/main/README.md",
+  "category": "SPORTS",
+  "inputs": "INPUT_SCHEMA.json",
+  "storages": {
+    "dataset": {
+      "supported": true
+    },
+    "keyValueStore": {
+      "supported": true
+    }
+  },
+  "dockerfile": "Dockerfile"
+}
